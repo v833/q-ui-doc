@@ -1,0 +1,23 @@
+{
+  "name": "q-ui-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "server": "vitepress server docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.20.1"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "element-plus": "^2.2.13",
+    "q-element-components": "^1.0.1"
+  }
+}
